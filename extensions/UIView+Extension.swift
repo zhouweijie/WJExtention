@@ -32,11 +32,13 @@ extension UIView {
             mask.backgroundColor = color
             mask.alpha = alpha
             mask.frame = self.bounds
-            self.mask = mask
+            self.mask = mask//暂借助mask属性添加蒙层，之后替换，mask添加的蒙层会修改view的透明度
+            self.addSubview(self.mask!)
         }
     }
     
     func hideMask() {
+        self.mask?.removeFromSuperview()
         self.mask = nil
     }
 
