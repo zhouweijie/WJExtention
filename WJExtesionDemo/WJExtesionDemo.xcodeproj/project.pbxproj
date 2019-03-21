@@ -38,6 +38,7 @@
 		6006B2B02243829A004C0464 = {
 			isa = PBXGroup;
 			children = (
+				6006B2CE224384EB004C0464 /* New Group */,
 				6006B2BB2243829A004C0464 /* WJExtesionDemo */,
 				6006B2BA2243829A004C0464 /* Products */,
 			);
@@ -62,6 +63,13 @@
 				6006B2C82243829B004C0464 /* Info.plist */,
 			);
 			path = WJExtesionDemo;
+			sourceTree = "<group>";
+		};
+		6006B2CE224384EB004C0464 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
