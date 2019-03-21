@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension UIView {
     func viewController() -> UIViewController? {
@@ -22,21 +23,21 @@ extension UIView {
     }
     
     func showMask() {
-        self.showMask(color: UIColor.hex(hexValue: 0x000000))
+        self.showMask(color: UIColor.hex(hexValue: 0x000000), alpha: 0.3)
     }
     
-    func showMask(color: UIColor) {
+    func showMask(color: UIColor, alpha: CGFloat) {
         if self.mask == nil {
             let mask = UIView()
             mask.backgroundColor = color
-            mask.alpha = 0.3
+            mask.alpha = alpha
             mask.frame = self.bounds
             self.mask = mask
         }
-        self.mask?.isHidden = false
     }
     
     func hideMask() {
-        self.mask?.isHidden = true
+        self.mask = nil
     }
+
 }
