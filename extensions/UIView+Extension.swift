@@ -22,6 +22,19 @@ extension UIView {
         return nil
     }
     
+    func subViewWithClassName(className: String) -> UIView? {
+        for view in self.subviews {
+            if NSStringFromClass(type(of: view)) == className {
+                return view
+            }
+            let result = view.subViewWithClassName(className: className)
+            if result != nil {
+                return result
+            }
+        }
+        return nil
+    }
+    
     func showMask() {
         self.showMask(color: UIColor.hex(hexValue: 0x000000), alpha: 0.3)
     }

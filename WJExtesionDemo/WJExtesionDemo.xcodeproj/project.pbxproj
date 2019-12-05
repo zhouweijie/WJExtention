@@ -12,8 +12,34 @@
 		6006B2C22243829A004C0464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6006B2C02243829A004C0464 /* Main.storyboard */; };
 		6006B2C42243829B004C0464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6006B2C32243829B004C0464 /* Assets.xcassets */; };
 		6006B2C72243829B004C0464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6006B2C52243829B004C0464 /* LaunchScreen.storyboard */; };
-		6006B2D0224389F2004C0464 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6006B2CF224389F2004C0464 /* UIView+Extension.swift */; };
-		6006B2D222438AA2004C0464 /* UIColor+JM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6006B2D122438AA2004C0464 /* UIColor+JM.swift */; };
+		699BC5522398AFF800C00AAD /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC54D2398AFF800C00AAD /* UIColor+Extension.swift */; };
+		699BC5532398AFF800C00AAD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC54E2398AFF800C00AAD /* UIFont+Extension.swift */; };
+		699BC5542398AFF800C00AAD /* UITablViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC54F2398AFF800C00AAD /* UITablViewCell+Extension.swift */; };
+		699BC5552398AFF800C00AAD /* UITabbar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5502398AFF800C00AAD /* UITabbar+Extension.swift */; };
+		699BC5562398AFF800C00AAD /* UIImage+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5512398AFF800C00AAD /* UIImage+Utilities.swift */; };
+		699BC55B2398B07E00C00AAD /* YYActionSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5592398B07E00C00AAD /* YYActionSheetController.swift */; };
+		699BC55C2398B07E00C00AAD /* YYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC55A2398B07E00C00AAD /* YYBaseViewController.swift */; };
+		699BC5642398B0AA00C00AAD /* YYPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC55E2398B0AA00C00AAD /* YYPageView.swift */; };
+		699BC5652398B0AA00C00AAD /* YYSegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5602398B0AA00C00AAD /* YYSegmentButton.swift */; };
+		699BC5662398B0AA00C00AAD /* YYSegmentDefaultIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5612398B0AA00C00AAD /* YYSegmentDefaultIndicator.swift */; };
+		699BC5672398B0AA00C00AAD /* YYSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5622398B0AA00C00AAD /* YYSegmentView.swift */; };
+		699BC5682398B0AA00C00AAD /* YYSegmentCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5632398B0AA00C00AAD /* YYSegmentCollectionView.swift */; };
+		699BC56B2398B0D600C00AAD /* YYPagedRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5692398B0D600C00AAD /* YYPagedRequester.swift */; };
+		699BC56C2398B0D600C00AAD /* YYRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC56A2398B0D600C00AAD /* YYRequester.swift */; };
+		699BC5762398B10400C00AAD /* YYFixedSizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC56D2398B10400C00AAD /* YYFixedSizeButton.swift */; };
+		699BC5772398B10400C00AAD /* YYCollectionViewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC56E2398B10400C00AAD /* YYCollectionViewTemplate.swift */; };
+		699BC5782398B10400C00AAD /* YYTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC56F2398B10400C00AAD /* YYTableView.swift */; };
+		699BC5792398B10400C00AAD /* YYTableViewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5702398B10400C00AAD /* YYTableViewTemplate.swift */; };
+		699BC57A2398B10400C00AAD /* YYTitleBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5712398B10400C00AAD /* YYTitleBarButton.swift */; };
+		699BC57B2398B10400C00AAD /* YYTitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5722398B10400C00AAD /* YYTitleBar.swift */; };
+		699BC57C2398B10400C00AAD /* YYCollectionViewCellTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5732398B10400C00AAD /* YYCollectionViewCellTemplate.swift */; };
+		699BC57D2398B10400C00AAD /* YYBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5742398B10400C00AAD /* YYBaseTableViewCell.swift */; };
+		699BC57E2398B10400C00AAD /* YYCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5752398B10400C00AAD /* YYCollectionView.swift */; };
+		699BC5802398B11700C00AAD /* YYWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC57F2398B11700C00AAD /* YYWKWebViewController.swift */; };
+		699BC5822398B18300C00AAD /* YYSelectStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5812398B18300C00AAD /* YYSelectStackView.swift */; };
+		699BC5842398B23800C00AAD /* CollectionBatchDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5832398B23800C00AAD /* CollectionBatchDeleteView.swift */; };
+		699BC5862398B25500C00AAD /* TableViewBatchDeleteBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5852398B25500C00AAD /* TableViewBatchDeleteBottomBar.swift */; };
+		699BC5882398B2CB00C00AAD /* YYNoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BC5872398B2CB00C00AAD /* YYNoDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +50,34 @@
 		6006B2C32243829B004C0464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6006B2C62243829B004C0464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6006B2C82243829B004C0464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6006B2CF224389F2004C0464 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../../extensions/UIView+Extension.swift"; sourceTree = "<group>"; };
-		6006B2D122438AA2004C0464 /* UIColor+JM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+JM.swift"; path = "../../extensions/UIColor+JM.swift"; sourceTree = "<group>"; };
+		699BC54D2398AFF800C00AAD /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "../../extensions/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		699BC54E2398AFF800C00AAD /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Extension.swift"; path = "../../extensions/UIFont+Extension.swift"; sourceTree = "<group>"; };
+		699BC54F2398AFF800C00AAD /* UITablViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITablViewCell+Extension.swift"; path = "../../extensions/UITablViewCell+Extension.swift"; sourceTree = "<group>"; };
+		699BC5502398AFF800C00AAD /* UITabbar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITabbar+Extension.swift"; path = "../../extensions/UITabbar+Extension.swift"; sourceTree = "<group>"; };
+		699BC5512398AFF800C00AAD /* UIImage+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Utilities.swift"; path = "../../extensions/UIImage+Utilities.swift"; sourceTree = "<group>"; };
+		699BC5592398B07E00C00AAD /* YYActionSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYActionSheetController.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/YYActionSheetController.swift"; sourceTree = "<group>"; };
+		699BC55A2398B07E00C00AAD /* YYBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYBaseViewController.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/YYBaseViewController.swift"; sourceTree = "<group>"; };
+		699BC55E2398B0AA00C00AAD /* YYPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYPageView.swift; sourceTree = "<group>"; };
+		699BC5602398B0AA00C00AAD /* YYSegmentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYSegmentButton.swift; sourceTree = "<group>"; };
+		699BC5612398B0AA00C00AAD /* YYSegmentDefaultIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYSegmentDefaultIndicator.swift; sourceTree = "<group>"; };
+		699BC5622398B0AA00C00AAD /* YYSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYSegmentView.swift; sourceTree = "<group>"; };
+		699BC5632398B0AA00C00AAD /* YYSegmentCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYSegmentCollectionView.swift; sourceTree = "<group>"; };
+		699BC5692398B0D600C00AAD /* YYPagedRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYPagedRequester.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/Requesters/YYPagedRequester.swift"; sourceTree = "<group>"; };
+		699BC56A2398B0D600C00AAD /* YYRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYRequester.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/Requesters/YYRequester.swift"; sourceTree = "<group>"; };
+		699BC56D2398B10400C00AAD /* YYFixedSizeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYFixedSizeButton.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/Views/YYFixedSizeButton.swift"; sourceTree = "<group>"; };
+		699BC56E2398B10400C00AAD /* YYCollectionViewTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYCollectionViewTemplate.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/Views/YYCollectionViewTemplate.swift"; sourceTree = "<group>"; };
+		699BC56F2398B10400C00AAD /* YYTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYTableView.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/Views/YYTableView.swift"; sourceTree = "<group>"; };
+		699BC5702398B10400C00AAD /* YYTableViewTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYTableViewTemplate.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/Views/YYTableViewTemplate.swift"; sourceTree = "<group>"; };
+		699BC5712398B10400C00AAD /* YYTitleBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYTitleBarButton.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/Views/YYTitleBarButton.swift"; sourceTree = "<group>"; };
+		699BC5722398B10400C00AAD /* YYTitleBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYTitleBar.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/Views/YYTitleBar.swift"; sourceTree = "<group>"; };
+		699BC5732398B10400C00AAD /* YYCollectionViewCellTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYCollectionViewCellTemplate.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/Views/YYCollectionViewCellTemplate.swift"; sourceTree = "<group>"; };
+		699BC5742398B10400C00AAD /* YYBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYBaseTableViewCell.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/Views/YYBaseTableViewCell.swift"; sourceTree = "<group>"; };
+		699BC5752398B10400C00AAD /* YYCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYCollectionView.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/Views/YYCollectionView.swift"; sourceTree = "<group>"; };
+		699BC57F2398B11700C00AAD /* YYWKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYWKWebViewController.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/YYWKWebViewController.swift"; sourceTree = "<group>"; };
+		699BC5812398B18300C00AAD /* YYSelectStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYSelectStackView.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/YYSelectStackView.swift"; sourceTree = "<group>"; };
+		699BC5832398B23800C00AAD /* CollectionBatchDeleteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionBatchDeleteView.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/ViewControllers/Mine/我的收藏/Views/CollectionBatchDeleteView.swift"; sourceTree = "<group>"; };
+		699BC5852398B25500C00AAD /* TableViewBatchDeleteBottomBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewBatchDeleteBottomBar.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/ViewControllers/Mine/我的收藏/Views/TableViewBatchDeleteBottomBar.swift"; sourceTree = "<group>"; };
+		699BC5872398B2CB00C00AAD /* YYNoDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYNoDataView.swift; path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/ViewControllers/拍照/发布/关联商品/Views/YYNoDataView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +94,9 @@
 		6006B2B02243829A004C0464 = {
 			isa = PBXGroup;
 			children = (
-				6006B2CE224384EB004C0464 /* New Group */,
+				699BC5582398B03A00C00AAD /* Helper */,
+				699BC5572398B01E00C00AAD /* Base */,
+				699BC5422398AFA900C00AAD /* Extensions */,
 				6006B2BB2243829A004C0464 /* WJExtesionDemo */,
 				6006B2BA2243829A004C0464 /* Products */,
 			);
@@ -69,13 +123,70 @@
 			path = WJExtesionDemo;
 			sourceTree = "<group>";
 		};
-		6006B2CE224384EB004C0464 /* New Group */ = {
+		699BC5422398AFA900C00AAD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				6006B2D122438AA2004C0464 /* UIColor+JM.swift */,
-				6006B2CF224389F2004C0464 /* UIView+Extension.swift */,
+				699BC54D2398AFF800C00AAD /* UIColor+Extension.swift */,
+				699BC54E2398AFF800C00AAD /* UIFont+Extension.swift */,
+				699BC5512398AFF800C00AAD /* UIImage+Utilities.swift */,
+				699BC5502398AFF800C00AAD /* UITabbar+Extension.swift */,
+				699BC54F2398AFF800C00AAD /* UITablViewCell+Extension.swift */,
 			);
-			path = "New Group";
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		699BC5572398B01E00C00AAD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		699BC5582398B03A00C00AAD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				699BC55D2398B0AA00C00AAD /* YYPageView */,
+				699BC5592398B07E00C00AAD /* YYActionSheetController.swift */,
+				699BC57F2398B11700C00AAD /* YYWKWebViewController.swift */,
+				699BC5692398B0D600C00AAD /* YYPagedRequester.swift */,
+				699BC56A2398B0D600C00AAD /* YYRequester.swift */,
+				699BC5852398B25500C00AAD /* TableViewBatchDeleteBottomBar.swift */,
+				699BC5872398B2CB00C00AAD /* YYNoDataView.swift */,
+				699BC55A2398B07E00C00AAD /* YYBaseViewController.swift */,
+				699BC5742398B10400C00AAD /* YYBaseTableViewCell.swift */,
+				699BC5752398B10400C00AAD /* YYCollectionView.swift */,
+				699BC5732398B10400C00AAD /* YYCollectionViewCellTemplate.swift */,
+				699BC56E2398B10400C00AAD /* YYCollectionViewTemplate.swift */,
+				699BC56D2398B10400C00AAD /* YYFixedSizeButton.swift */,
+				699BC5832398B23800C00AAD /* CollectionBatchDeleteView.swift */,
+				699BC56F2398B10400C00AAD /* YYTableView.swift */,
+				699BC5702398B10400C00AAD /* YYTableViewTemplate.swift */,
+				699BC5722398B10400C00AAD /* YYTitleBar.swift */,
+				699BC5812398B18300C00AAD /* YYSelectStackView.swift */,
+				699BC5712398B10400C00AAD /* YYTitleBarButton.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		699BC55D2398B0AA00C00AAD /* YYPageView */ = {
+			isa = PBXGroup;
+			children = (
+				699BC55E2398B0AA00C00AAD /* YYPageView.swift */,
+				699BC55F2398B0AA00C00AAD /* YYSegmentView */,
+			);
+			name = YYPageView;
+			path = "../../../Desktop/资料/yysmallvideoproject/YYVideo/YYVideo/Helpers/Base/YYPageView";
+			sourceTree = "<group>";
+		};
+		699BC55F2398B0AA00C00AAD /* YYSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				699BC5602398B0AA00C00AAD /* YYSegmentButton.swift */,
+				699BC5612398B0AA00C00AAD /* YYSegmentDefaultIndicator.swift */,
+				699BC5622398B0AA00C00AAD /* YYSegmentView.swift */,
+				699BC5632398B0AA00C00AAD /* YYSegmentCollectionView.swift */,
+			);
+			path = YYSegmentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +260,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6006B2D0224389F2004C0464 /* UIView+Extension.swift in Sources */,
+				699BC57B2398B10400C00AAD /* YYTitleBar.swift in Sources */,
+				699BC57C2398B10400C00AAD /* YYCollectionViewCellTemplate.swift in Sources */,
+				699BC5542398AFF800C00AAD /* UITablViewCell+Extension.swift in Sources */,
+				699BC5782398B10400C00AAD /* YYTableView.swift in Sources */,
+				699BC55C2398B07E00C00AAD /* YYBaseViewController.swift in Sources */,
+				699BC5522398AFF800C00AAD /* UIColor+Extension.swift in Sources */,
+				699BC5652398B0AA00C00AAD /* YYSegmentButton.swift in Sources */,
 				6006B2BF2243829A004C0464 /* ViewController.swift in Sources */,
-				6006B2D222438AA2004C0464 /* UIColor+JM.swift in Sources */,
+				699BC57E2398B10400C00AAD /* YYCollectionView.swift in Sources */,
+				699BC5662398B0AA00C00AAD /* YYSegmentDefaultIndicator.swift in Sources */,
+				699BC5842398B23800C00AAD /* CollectionBatchDeleteView.swift in Sources */,
+				699BC5552398AFF800C00AAD /* UITabbar+Extension.swift in Sources */,
+				699BC5532398AFF800C00AAD /* UIFont+Extension.swift in Sources */,
+				699BC57A2398B10400C00AAD /* YYTitleBarButton.swift in Sources */,
+				699BC5792398B10400C00AAD /* YYTableViewTemplate.swift in Sources */,
+				699BC5822398B18300C00AAD /* YYSelectStackView.swift in Sources */,
+				699BC5772398B10400C00AAD /* YYCollectionViewTemplate.swift in Sources */,
+				699BC5882398B2CB00C00AAD /* YYNoDataView.swift in Sources */,
+				699BC55B2398B07E00C00AAD /* YYActionSheetController.swift in Sources */,
+				699BC5642398B0AA00C00AAD /* YYPageView.swift in Sources */,
+				699BC5802398B11700C00AAD /* YYWKWebViewController.swift in Sources */,
+				699BC5682398B0AA00C00AAD /* YYSegmentCollectionView.swift in Sources */,
+				699BC5562398AFF800C00AAD /* UIImage+Utilities.swift in Sources */,
+				699BC5762398B10400C00AAD /* YYFixedSizeButton.swift in Sources */,
 				6006B2BD2243829A004C0464 /* AppDelegate.swift in Sources */,
+				699BC57D2398B10400C00AAD /* YYBaseTableViewCell.swift in Sources */,
+				699BC56B2398B0D600C00AAD /* YYPagedRequester.swift in Sources */,
+				699BC5862398B25500C00AAD /* TableViewBatchDeleteBottomBar.swift in Sources */,
+				699BC56C2398B0D600C00AAD /* YYRequester.swift in Sources */,
+				699BC5672398B0AA00C00AAD /* YYSegmentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
